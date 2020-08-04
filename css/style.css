@@ -55,19 +55,20 @@ body  {
 /*-- header part css start --*/
 
 #header             { width:100% ; float:left; height:154px; background:#ebe8e8 url(../images/header_bg.png) repeat-x;}
-.header_part        { width:1000px ; margin:auto; max-width: 100%; display: flex; justify-content: space-between;padding-left: 8px;}
+.header_part        { width:1000px ; margin:auto; max-width: 100%; display: flex; justify-content: space-between;padding-left: 1px;
+	padding-right: 0px;}
 .logo               { width:auto ; float:left; margin-top:4px; }
 .logo img           { width:auto ;max-width: 100%; }
-.header_right       { width: 180px;}
+.header_right       { padding-right: 0px;}
 .icon               { width:auto ; float:left; margin:4px 0px 0px 10px; }
 .icon img           { width:auto ; float:left;  }
 
 /*-- container part css start --*/
 
 #container          { width:100% ; float:left; }
-.banner_main        { width:100% ; float:left; height:415px; background:url(../images/banner_bg.png) repeat;  }
+.banner_main        { width:100% ; float:left; height:415px; background-color: #652d90 ;  }
 .banner_part        { width:1000px ; margin:auto;max-width: 100%;}
-.navigation         { width:100% ; float:left; height:45px; background:#f4b931 repeat; border-radius:0px 0px 10px 10px;margin-left: 2px;}   
+.navigation         { width:100% ; float:left; height:45px; background:#f4b931 repeat; border-radius:0px 0px 10px 10px;margin-left: 2px;margin-top: -1px;}   
 .navigation ul      { width:auto ; float:left;} 
 .navigation ul li   { width:auto ; float:left;} 
 .navigation ul li a { width:auto ; float:left; font:normal 19px 'code_boldregular'; color:#fff; padding:13px 14px;  } 
@@ -434,10 +435,11 @@ line-height: 20px;
 	margin: 0px;
 }
 .nav-icon {
-    width: 32px;
-    height: 3px;
-    background: black;
-    margin-top: 2px;
+	width: 32px;
+	height: 3px;
+	background-color: #fc3;
+	margin-left: 4px;
+	margin-top: 4px;
 }
 .navbar-toggler {
     width: 40px;
@@ -527,7 +529,9 @@ line-height: 20px;
 	border-top: 1px solid #652d90;
 	border-bottom: 2px solid #652d90;
 }
-
+.navbar-collapse{
+	padding: 0px;
+}
 /* -------------------------------------waqar html closed -----------------------------------*/
 /* media qureey */
 @media screen and (max-width: 925px) {
@@ -548,7 +552,7 @@ line-height: 20px;
 @media screen and (max-width: 900px) {
 	.navigation ul li a {
 		width: auto;
-		font: normal 16px 'code_boldregular';
+		font: normal 15px 'code_boldregular';
 		color: #fff;
 		padding: 13px 14px;
 	}
@@ -634,8 +638,46 @@ line-height: 20px;
 	.heading2{
 		width: 90%;
 	}
-	
-	
+	#header     {
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.header_part{
+		flex-wrap: wrap;
+	}
+	.banner_main .banner_part{
+		position: relative;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 25px;
+		position: absolute;
+		right: 0px;
+		top: -35px;
+		background-color: #652d90;
+		border: 0px;
+	}
+	.header_right {
+		width: 180px;
+		padding-top: 8px;
+	}
+	#navbarNav .navbar{
+		margin-left: -5px;
+	}
+	.logo{
+		margin: 0 auto;
+	}
+	.set-table {
+		width: 100%;
+	}
+	.set-td {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.center-p{
+		text-align: center;
+	}
 }
 @media screen and (max-width: 600px) {
 	.heading-h1 h1 {
