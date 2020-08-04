@@ -1,0 +1,13 @@
+.image_fader {
+list-style-type: none;
+padding: 0;
+ position: relative; 
+}
+.image_fader li {
+margin: 0;
+padding: 0;
+position: absolute;
+} .image_fader li  img{
+margin: 0;
+padding: 0;width:100%;
+ } 
