@@ -532,6 +532,9 @@ line-height: 20px;
 .navbar-collapse{
 	padding: 0px;
 }
+#navbarNav .navbar{
+	margin-bottom: 0px;
+}
 /* -------------------------------------waqar html closed -----------------------------------*/
 /* media qureey */
 @media screen and (max-width: 925px) {
