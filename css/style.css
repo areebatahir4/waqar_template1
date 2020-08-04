@@ -663,6 +663,7 @@ line-height: 20px;
 	}
 	#navbarNav .navbar{
 		margin-left: -5px;
+		margin-bottom: 0px;
 	}
 	.logo{
 		margin: 0 auto;
