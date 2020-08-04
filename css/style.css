@@ -416,6 +416,12 @@ line-height: 20px;
 .child-fix{
 	
 }
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
 .footer{
 	width: 100%;
 	float: left;
