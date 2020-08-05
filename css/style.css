@@ -750,7 +750,7 @@ line-height: 20px;
 		padding-left: 5px;
 	}
 	.minis-parent{
-		height: 1110px;
+		height: auto;
 	}
 	.church_history{
 		height: auto;
