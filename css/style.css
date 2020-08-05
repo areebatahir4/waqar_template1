@@ -155,13 +155,20 @@ padding-bottom:30px;max-width: 100%;display: flex;justify-content: space-between
 #footer               { width:100% ; float:left; height:auto; background:url(../images/banner_bg.png) repeat; padding:10px 0px; margin-top:25px; }
 .footer_part         { width:1000px ; margin:auto;max-width: 100%;}
 .footer_part p        { width:100% ; float:left;font:normal 15px 'tt0142m'; color:#fff; text-align:center; } 
-
+.clearfix{
+	clear: both;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 
 
 /*-- church_history page css start --*/
 
 
-.church_history      { width:1000px ; margin:auto; background:#fff repeat; padding-bottom:30px;max-width: 100%;padding-right: 0px;}
+.church_history      { width:1000px ; margin:auto; background:#fff repeat; padding-bottom:30px;max-width: 100%;padding-right: 0px;position: relative;}
 .heading2  { 
 
 	float: none;
@@ -687,6 +694,12 @@ line-height: 20px;
 	}
 	.center-p{
 		text-align: center;
+	}
+	.banner_main .banner_part {
+		position: relative;
+	}
+	.church_history{
+		position: relative;
 	}
 }
 @media screen and (max-width: 600px) {
